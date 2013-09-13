@@ -10,6 +10,7 @@ int main() {
   Employee alex(3, "Alex");
   Employee sarah(4, "Sarah");
 
+  // setBoss requires an Employee pointer, send reference
   dan.setBoss(&man);
   mike.setBoss(&man);
   alex.setBoss(&man);
@@ -57,6 +58,6 @@ int main() {
   man.report();
   man.report();
 
-
+  man.reportLackeys();
   return 0;
 }

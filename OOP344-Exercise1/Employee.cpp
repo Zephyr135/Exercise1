@@ -9,6 +9,7 @@ Employee::Employee(int id, char* name) {
   strcpy(Employee::name, name);
   boss = 0;
   hours = 0;
+  totalHours = 0;
 }
 
 Employee::~Employee() {
@@ -18,10 +19,12 @@ Employee::~Employee() {
 
 void Employee::setBoss(Manager* newBoss) {
   boss = newBoss;
+  boss->addWorker(this);
 }
 
 void Employee::work(int numOfHours) {
   hours += numOfHours;
+  totalHours += numOfHours;
 }
 
 void Employee::report() {
@@ -29,6 +32,10 @@ void Employee::report() {
     boss->getWorkerHours(this);
     hours = 0;
   }
+}
+
+int Employee::getTotalHours() {
+  return totalHours;
 }
 
 int Employee::getHours() {

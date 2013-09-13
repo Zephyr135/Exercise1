@@ -1,14 +1,8 @@
-﻿Build started 11/09/2013 13:46:42.
+﻿Build started 12/09/2013 19:12:53.
      1>Project "C:\Users\VALERIAHEARTSSHD\OOP344Ex\ex1\Exercise1\OOP344-Exercise1\OOP344-Exercise1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Employee.cpp Main.cpp Manager.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Manager.cpp
          Manager.cpp
-         Main.cpp
-         Employee.cpp
-     1>c:\users\valeriaheartsshd\oop344ex\ex1\exercise1\oop344-exercise1\employee.cpp(9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
-         Generating Code...
-     1>c:\users\valeriaheartsshd\oop344ex\ex1\exercise1\oop344-exercise1\main.cpp(13): warning C4700: uninitialized local variable 'man' used
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\VALERIAHEARTSSHD\OOP344Ex\ex1\Exercise1\Debug\OOP344-Exercise1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\VALERIAHEARTSSHD\OOP344Ex\ex1\Exercise1\Debug\OOP344-Exercise1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\VALERIAHEARTSSHD\OOP344Ex\ex1\Exercise1\Debug\OOP344-Exercise1.lib" /MACHINE:X86 Debug\Employee.obj
          Debug\Main.obj
@@ -18,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.94
+Time Elapsed 00:00:00.96

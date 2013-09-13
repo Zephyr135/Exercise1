@@ -1,3 +1,6 @@
+#ifndef _EMPLOYEE_H_
+#define _EMPLOYEE_H_
+
 class Manager;
 
 class Employee {
@@ -6,6 +9,7 @@ class Employee {
     char* name;
     Manager* boss;
     int hours;
+    int totalHours;
   protected:
   public:
     Employee(int id, char* name);
@@ -16,4 +20,7 @@ class Employee {
     int getHours();
     int getID();
     char* getName();
+    int getTotalHours();
 };
+
+#endif
