@@ -1,4 +1,5 @@
 class Manager;
+// no need for #include since .cpp files are compiled first, and already included there
 
 class Employee {
   private:

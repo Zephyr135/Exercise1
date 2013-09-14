@@ -10,6 +10,7 @@ int main() {
   Employee alex(3, "Alex");
   Employee sarah(4, "Sarah");
 
+  // setBoss wants Manager pointer, send address
   dan.setBoss(&man);
   mike.setBoss(&man);
   alex.setBoss(&man);

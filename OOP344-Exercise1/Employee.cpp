@@ -12,7 +12,7 @@ Employee::Employee(int id, char* name) {
 }
 
 Employee::~Employee() {
-  if(name)
+  if (name)
     delete [] name;
 }
 

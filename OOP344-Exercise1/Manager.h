@@ -1,4 +1,5 @@
 class Employee;
+// read comment on Employee.h
 
 class Manager {
   private:
